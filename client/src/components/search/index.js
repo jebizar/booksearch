@@ -5,7 +5,7 @@ function Search(props) {
         <form>
             <div className="form-group">
                 <label for="search">Search</label>
-                <input type="text " className="form-control" id="search" placeholder="Search query" onChange={props.handleInputChange} value = {props.value}/>
+                <input type="text " className="form-control" id="search" placeholder="Search query" onChange={props.handleInputChange} value = {props.value} name = "search"/>
             </div>
             <button type="submit" className="btn btn-primary" onClick = {props.handleFormSubmit}>Submit</button>
         </form>
