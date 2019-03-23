@@ -1,10 +1,8 @@
-# Create React Express App
+# Book Search
 
-## About This Boilerplate
+## About This
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
-
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+Use google API to look up favorite books.
 
 ## Starting the app locally
 
